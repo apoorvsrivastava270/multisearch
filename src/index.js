@@ -5,52 +5,52 @@ function logochange() {
     var image = document.getElementById("logo");
     switch (y) {
         case "youtube":
-            image.src = "media/Logoyt.png";
+            image.src = "/media/Logoyt.png";
             break;
         case "google":
-            image.src = "media/Logog.png";
+            image.src = "/media/Logog.png";
             break;
         case "wikipedia":
-            image.src = "media/Logowiki.png";
+            image.src = "/media/Logowiki.png";
             break;
         case "docs":
-            image.src = "media/Logodoc.png";
+            image.src = "/media/Logodoc.png";
             break;
         case "bing":
-            image.src = "media/Logobing.png";
+            image.src = "/media/Logobing.png";
             break;
         case "spotify":
-            image.src = "media/Logospot.png";
+            image.src = "/media/Logospot.png";
             break;
         case "amazon":
-            image.src = "media/Logoam.png";
+            image.src = "/media/Logoam.png";
             break;
         case "myntra":
-            image.src = "media/Logomyntra.png";
+            image.src = "/media/Logomyntra.png";
             break;
         case "flipkart":
-            image.src = "media/Logoflipkart.png";
+            image.src = "/media/Logoflipkart.png";
             break;
         case "yahoo":
-            image.src = "media/Logoyahoo.png";
+            image.src = "/media/Logoyahoo.png";
             break;
         case "hotstar":
-            image.src = "media/Logohotstar.png";
+            image.src = "/media/Logohotstar.png";
             break;
         case "netflix":
-            image.src = "media/Logonetflix.png";
+            image.src = "/media/Logonetflix.png";
             break;
         case "reddit":
-            image.src = "media/Logoreddit.png";
+            image.src = "/media/Logoreddit.png";
             break;
         case "linkedin":
-            image.src = "media/Logolinkedin.png";
+            image.src = "/media/Logolinkedin.png";
             break;
         case "twitter":
-            image.src = "media/Logotwitter.png";
+            image.src = "/media/Logotwitter.png";
             break;
         default:
-            image.src = "media/Logo.png";
+            image.src = "/media/Logo.png";
             break;
     }
 }
